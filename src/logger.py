@@ -1,3 +1,4 @@
+
 import logging
 import os
 from datetime import datetime
@@ -14,5 +15,3 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
-if __name__ == "__main__":
-    logging.info("Logging has started")
