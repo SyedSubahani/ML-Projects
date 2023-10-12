@@ -21,7 +21,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the Data Ingestion Method or Component")
         try:
-            df = pd.read_csv("notebook\data\stud.csv")
+            df = pd.read_csv('notebook\data\stud.csv')
 
             logging.info("Read the Dataset as Data Frame")
 
@@ -50,4 +50,3 @@ class DataIngestion:
 if __name__ == "__main__":
     obj = DataIngestion()
     train_data,test_data=obj.initiate_data_ingestion()
-
